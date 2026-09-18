@@ -17,7 +17,7 @@ jobs:
       - name: Unpack project
         run: |
           mkdir project
-          unzip -q LimboSignal_GitHubBuild_v5.zip -d project
+          unzip -q LimboSignal_4_FlashCycleTuned.zip -d project
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
